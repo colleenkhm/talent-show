@@ -1,6 +1,11 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        sections = [],
+        setCurrentSection,
+        currentSection,
+    } = props;
 
     return (
         <header className="flex-row px-1">
@@ -18,7 +23,7 @@ function Nav() {
                     </li>
                     <li>
                         <a href="#work">
-                            Projects
+                            Work
                         </a>
                     </li>
                     <li>
