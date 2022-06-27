@@ -5,6 +5,8 @@ function Nav(props) {
         sections = [],
         setCurrentSection,
         currentSection,
+        contactSelected,
+        setContactSelected
     } = props;
 
     return (
@@ -16,35 +18,27 @@ function Nav(props) {
             </h2>
             <nav>
                 <ul className="flex-row">
-                    <li className="mx-2">
-                        <span>About</span>
-                    </li>
-                    <li className="mx-2">
-                        <span>Work</span>
-                    </li>
-                    <li className="mx-2">
-                        <span>Contact</span>
-                    </li>
-                    <li className="mx-2">
-                        <span>Resume</span>
-                    </li>
-                    {/* {sections.map((section) => (
-                    <li className={`mx-2 ${
+                    {sections.map((section) => (
+                    <li>
+                        <a className={`mx-2 ${
                         currentSection.name === section.name && 'NavActive'
                     }`}
                     key={section.name}
-                    >
-                        <span onClick={() => {
-                            setCurrentSection(section)
-                        }} >
-                            
-                        </span>
+                    onClick={() => {
+                        setCurrentSection(section);
+                        setContactSelected(false)
+                    }}
+                    ></a>
                     </li>
-                ))} */}
+                    ))}
+                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                        <span onClick={() => 
+                            setContactSelected(true)}>Contact</span>
+                    </li>
                 </ul>
             </nav>
         </header>
-    )
+    );
 }
 
 export default Nav;
