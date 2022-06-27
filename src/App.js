@@ -9,15 +9,11 @@ function App() {
   const [sections] = useState([
     {
         name: 'about',
-        description: 'about Colleen'
+        description: 'about page'
     },
     {
         name: 'projects',
-        description: 'coding projects'
-    },
-    {
-        name: 'contact',
-        description: 'contact information'
+        description: 'coding projects page'
     },
     {
         name: 'resume',
@@ -26,21 +22,30 @@ function App() {
 ]);
 const [currentSection, setCurrentSection] = useState(sections[0]);
 
+const [contactSelected, setContactSelected] = useState(false);
+
   return (
     <div>
+      <Header></Header>
       <Nav
       sections={sections}
       setCurrentSection={setCurrentSection}
       currentSection={currentSection}
+      contactSelected={contactSelected}
+      setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        <div>
-          <About></About>
+        {!contactSelected ? (
+          <>
+          <About currentSection={currentSection}></About>
           <Work></Work>
-          <Contact></Contact>
           <Resume></Resume>
-        </div>
+          </>
+        ) : (
+          <Contact></Contact>  
+        )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
