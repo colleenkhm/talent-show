@@ -11,11 +11,16 @@ function Work() {
             name: 'Sleepily',
             link: 'https://github.com/colleenkhm/active-slumber',
             description: 'An app for users to help track sleeping patterns with data saving to user account. Made with Express.js, Handlebars.js, and MUI.'
+        },
+        {
+            name: 'Guess That Movie',
+            link: 'https://colleenkhm.github.io/guess-that-movie/',
+            description: 'An app that fetches a random quote from a movie quote API, translates it through multiple languages using a translation API, and then translates it back into English before asking the user to guess what movie the butchered quote is from.'
         }
     ])
     return (
-        <section>
-            <h2 id="projects">The Work Page</h2>
+        <section id='#work'>
+            <h2 id="portfolio">Portfolio</h2>
             <div>
                 <div className="flex-row">
                     {projects.map((project, i) => (
