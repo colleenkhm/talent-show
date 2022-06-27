@@ -4,6 +4,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [sections] = useState([
@@ -26,7 +27,6 @@ const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
-      <Header></Header>
       <Nav
       sections={sections}
       setCurrentSection={setCurrentSection}
@@ -38,8 +38,8 @@ const [contactSelected, setContactSelected] = useState(false);
         {!contactSelected ? (
           <>
           <About currentSection={currentSection}></About>
-          <Work></Work>
-          <Resume></Resume>
+          {/* <Work></Work>
+          <Resume></Resume> */}
           </>
         ) : (
           <Contact></Contact>  

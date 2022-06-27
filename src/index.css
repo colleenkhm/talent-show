@@ -6,7 +6,7 @@ main {
 
 :root {
   --primary: rgb(200, 246, 239);
-  --secondary: #ffd7fe;
+  --secondary: #fcf3fc;
 }
 
 * {
@@ -25,4 +25,22 @@ body {
   line-height: 1.5;
   font-family: 'Courier New', Courier, monospace;
   background-color: var(--primary);
+}
+
+header {
+  background: var(--secondary);
+}
+
+li {
+  list-style: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
 }
