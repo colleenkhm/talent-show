@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-// import About from './components/About';
-// import Work from './components/Work';
-// import Contact from './components/Contact';
-// import Resume from './components/Resume';
+import About from './components/About';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const [sections] = useState([
@@ -24,7 +24,7 @@ function App() {
         description: 'pdf of resume'
     }
 ]);
-const [currentSection, setCurrentSection] = useState(categories[0]);
+const [currentSection, setCurrentSection] = useState(sections[0]);
 
   return (
     <div>
@@ -33,14 +33,14 @@ const [currentSection, setCurrentSection] = useState(categories[0]);
       setCurrentSection={setCurrentSection}
       currentSection={currentSection}
       ></Nav>
-      {/* <main>
+      <main>
         <div>
           <About></About>
           <Work></Work>
           <Contact></Contact>
           <Resume></Resume>
         </div>
-      </main> */}
+      </main>
     </div>
   );
 }

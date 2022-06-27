@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Resume() {
+function Work() {
     return (
         <div>
-            My resume
+            The Work Page
         </div>
     )
 }
 
-export default Resume;
+export default Work;

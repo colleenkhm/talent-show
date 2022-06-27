@@ -17,25 +17,30 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="#about">
-                            About
-                        </a>
+                        <span>About</span>
                     </li>
-                    <li>
-                        <a href="#work">
-                            Work
-                        </a>
+                    <li className="mx-2">
+                        <span>Work</span>
                     </li>
-                    <li>
-                        <a href="#contact">
-                            Contact
-                        </a>
+                    <li className="mx-2">
+                        <span>Contact</span>
                     </li>
-                    <li>
-                        <a href="resume">
-                            Resume
-                        </a>
+                    <li className="mx-2">
+                        <span>Resume</span>
                     </li>
+                    {/* {sections.map((section) => (
+                    <li className={`mx-2 ${
+                        currentSection.name === section.name && 'NavActive'
+                    }`}
+                    key={section.name}
+                    >
+                        <span onClick={() => {
+                            setCurrentSection(section)
+                        }} >
+                            
+                        </span>
+                    </li>
+                ))} */}
                 </ul>
             </nav>
         </header>
