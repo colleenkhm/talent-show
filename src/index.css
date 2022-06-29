@@ -6,7 +6,7 @@ main {
 
 :root {
   --primary: rgb(200, 246, 239);
-  --secondary: #fcf3fc;
+  --secondary: #033325;
 }
 
 * {
@@ -49,4 +49,8 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.navActive {
+  color: white;
 }
