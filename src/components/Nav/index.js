@@ -1,11 +1,14 @@
 import React from 'react';
-import About from '../About'
-import Work from '../Work'
-import Contact from '../Contact'
-import Resume from '../Resume'
 
-function Nav() {
-
+function Nav(props) {
+    const {
+        pages = [],
+        setCurrentPage,
+        currentPage,
+        contactSelected,
+        setContactSelected,
+    } = props
+    
     return (
         <header className="flex-row px-1">
             <h1>
@@ -15,17 +18,17 @@ function Nav() {
             </h1>
             <nav>
                 <ul className="flex-row nav-bar">
-                    <li>
-                        <a href="#about" onClick={About}>About</a>
-                    </li>
-                    <li>
-                        <a href="#work" onClick={Work}>Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact" onclick={Contact}>Contact</a>
-                    </li>
-                    <li>
-                        <a href="#resume" onclick={Resume}>Resume</a>
+                    {pages.map((page) => (
+                        <li>
+                            <a key={page.id} className={`mx-2 ${currentPage.name === page.name && !contactSelected && 'navActive'}`} href={'#' + category.name}
+                            onClick={() => {
+                                setCurrentPage(page);
+                                setContactSelected(false);
+                            }}></a>
+                        </li>
+                    ))}
+                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                        <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                 </ul>
             </nav>

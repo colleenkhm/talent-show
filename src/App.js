@@ -7,45 +7,54 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
-  const [sections] = useState([
+  const [pages] = useState([
     {
-        name: 'about',
+        id: '0',
+        title: 'About',
         description: 'about page'
     },
     {
-        name: 'projects',
+        id: '1',
+        title: 'Projects',
         description: 'coding projects page'
     },
     {
-        name: 'resume',
+        id: '2',
+        title: 'Resume',
         description: 'pdf of resume'
     }
 ]);
-const [currentSection, setCurrentSection] = useState(sections[0]);
+const [currentPage, setCurrentPage] = useState(pages[0]);
 
 const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
-      <Nav
-      sections={sections}
-      setCurrentSection={setCurrentSection}
-      currentSection={currentSection}
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-          <About currentSection={currentSection}></About>
-          {/* <Work></Work>
-          <Resume></Resume> */}
-          </>
-        ) : (
-          <Contact></Contact>  
-        )}
-      </main>
-      <Footer></Footer>
+      <div>
+        <Nav
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        ></Nav>
+      </div>
+      <div>
+        <main>
+          {!contactSelected ? (
+            <>
+            <About currentPage={currentPage}></About>
+            <Work></Work>
+            <Resume></Resume>
+            </>
+          ) : (
+            <ContactForm></ContactForm>
+          )}
+        </main>
+      </div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
