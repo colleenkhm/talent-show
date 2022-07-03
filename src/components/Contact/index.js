@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    // const [toSend, setToSend] = useState({
+
+    // })
 
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
@@ -36,8 +39,8 @@ function ContactForm() {
     };
 
     return (
-        <section>
-            <h1>Connect with me!</h1>
+        <section id="contact">
+            <h2>Let's connect!</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name</label>
@@ -62,4 +65,4 @@ function ContactForm() {
     );
 }
 
-export default ContactForm;
+export default Contact;

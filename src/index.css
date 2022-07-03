@@ -5,8 +5,10 @@ main {
 }
 
 :root {
-  --primary: rgb(200, 246, 239);
-  --secondary: #033325;
+  --primary: #dee9f9;
+  --secondary: #98a8da;
+  --tertiary: #4b5b8b;
+  --accent: #f5f7fa;
 }
 
 * {
@@ -16,6 +18,7 @@ main {
 html,
 body {
   min-height: 100%;
+  text-align: center;
 }
 
 body {
@@ -23,22 +26,85 @@ body {
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
   background-color: var(--primary);
+  color: var(--tertiary);
 }
 
 header {
-  background: var(--secondary);
+  /* padding: 20px 35px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: var(--tertiary);
+  color: var(--accent);
 }
 
-li {
+header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0 45px;
+  color: var(--accent);
+}
+
+header h1:hover {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+header a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--secondary);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-  display: center;
+li {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 20px 45px 0;
+  list-style: none;
+}
+
+h2 {
+  color: var(--tertiary);
+  border-radius: 5px;
+  padding: 20px;
+  border-bottom: 5px solid var(--tertiary);
+}
+
+footer {
+  margin: 40px;
+}
+
+footer ul li {
+  background-color: var(--tertiary);
+  color: var(--accent);
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 50px;
+  min-height: 40px;
+  vertical-align: middle;
+}
+
+footer ul li a {
+  color: var(--accent);
+  padding: 5px;
 }
 
 .flex-row {
@@ -51,6 +117,162 @@ a {
   text-decoration: none;
 }
 
-.navActive {
+i {
   color: white;
+}
+
+.navActive {
+  color: rgb(193, 193, 193);
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.about-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  margin-top: 40px;
+  background-color: var(--accent);
+  border-radius: 5px;
+  box-shadow: 1px 1px var(--secondary);
+}
+
+.about-bio {
+  flex: 1;
+  margin-top: 30px;
+  margin-left: 50px;
+  max-width: 70%;
+  text-align: left;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.work-section {
+  background-color: var(--primary);
+}
+
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.flex-item {
+  text-decoration: none;
+  color: var(--primary);
+  border: 1px solid var(--tertiary);
+  min-height: 360px;
+  background-color: var(--secondary);
+  flex-basis: 45%;
+  margin: 10px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.flex-item:first-child {
+  min-height: 600px;
+  flex-basis: 100%;
+  margin-top: 5px;
+}
+
+.flex-item:hover {
+  opacity: 50%;
+  text-decoration: none;
+  color: slategray;
+}
+
+.flex-item div {
+  background-color: var(--tertiary);
+  color: var(--accent);
+  max-width: 190px;
+  margin-top: 35%;
+  border-radius: 5px;
+  padding: 1px;
+}
+
+.main-website {
+  text-align: center;
+  display: block;
+}
+
+.contact-item:hover {
+  opacity: 50%;
+  text-decoration: none;
+  color: slategray;
+}
+
+.resume img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume a {
+  width: 100%;
+}
+
+#work {
+  margin-top: 70px;
+}
+
+#guess-that-movie {
+  background-image: url("assets/images/guessthatmoviescreenshot.png");
+  background-size: contain;
+}
+
+#work-day-scheduler {
+  background-image: url("assets/images/schedulerscreenshot.png");
+  background-size: contain;
+}
+
+#sleepily {
+  background-image: url("assets/images/sleepily-screenshot.png");
+  background-size: contain;
+}
+
+#biwoc-health {
+  background-image: url("assets/images/biwoc-health-screenshot.png");
+  background-size: contain;
+}
+
+#team-profile-generator {
+  background-image: url("assets/images/team-profile-screenshot.png");
+  background-size: contain;
+}
+
+#footer {
+  padding: 0 30px 30px 30px;
+}
+
+#footer h2 {
+  margin-bottom: 40px;
 }

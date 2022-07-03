@@ -2,13 +2,9 @@ import React from 'react';
 
 function Nav(props) {
     const {
-        pages = [],
-        setCurrentPage,
-        currentPage,
-        contactSelected,
-        setContactSelected,
-    } = props
-    
+        resumeSelected,
+        setResumeSelected
+    } = props;
     return (
         <header className="flex-row px-1">
             <h1>
@@ -18,17 +14,18 @@ function Nav(props) {
             </h1>
             <nav>
                 <ul className="flex-row nav-bar">
-                    {pages.map((page) => (
-                        <li>
-                            <a key={page.id} className={`mx-2 ${currentPage.name === page.name && !contactSelected && 'navActive'}`} href={'#' + category.name}
-                            onClick={() => {
-                                setCurrentPage(page);
-                                setContactSelected(false);
-                            }}></a>
-                        </li>
-                    ))}
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                    <li>
+                        <a href="#about" class="section-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="section-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#footer" class="section-link">Contact</a>
+                    </li>
+                    <li className={`${resumeSelected}`}>
+                        <a>
+                            <span onClick={() => setResumeSelected(true)}>Resume</span></a>
                     </li>
                 </ul>
             </nav>
