@@ -1,5 +1,4 @@
 main {
-  margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
 }
@@ -45,6 +44,7 @@ header h1 {
   font-weight: bold;
   font-size: 40px;
   padding: 0 45px;
+  margin: 40px 0;
   color: var(--accent);
 }
 
@@ -60,6 +60,7 @@ header a {
 
 header a:hover {
   color: var(--secondary);
+  text-decoration: none;
 }
 
 header nav {
@@ -200,7 +201,7 @@ img {
 }
 
 .flex-item:first-child {
-  min-height: 600px;
+  min-height: 700px;
   flex-basis: 100%;
   margin-top: 5px;
 }
@@ -214,7 +215,7 @@ img {
 .flex-item div {
   background-color: var(--tertiary);
   color: var(--accent);
-  max-width: 190px;
+  max-width: 220px;
   margin-top: 35%;
   border-radius: 5px;
   padding: 1px;
@@ -245,12 +246,12 @@ img {
 }
 
 #guess-that-movie {
-  background-image: url("assets/images/guessthatmoviescreenshot.png");
+  background-image: url("assets/images/guess-that-movie-screenshot.png");
   background-size: contain;
 }
 
 #work-day-scheduler {
-  background-image: url("assets/images/schedulerscreenshot.png");
+  background-image: url("assets/images/scheduler-screenshot.png");
   background-size: contain;
 }
 
