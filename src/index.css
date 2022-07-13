@@ -1,6 +1,7 @@
 main {
   max-width: 90%;
   padding: 50px 30px;
+  margin-left: 5%;
 }
 
 :root {
@@ -112,6 +113,7 @@ footer ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 15px;
 }
 
 a {
@@ -200,11 +202,11 @@ img {
   border-radius: 8px;
 }
 
-.flex-item:first-child {
+/* .flex-item:first-child {
   min-height: 700px;
   flex-basis: 100%;
   margin-top: 5px;
-}
+} */
 
 .flex-item:hover {
   opacity: 50%;
@@ -243,6 +245,11 @@ img {
 
 #work {
   margin-top: 70px;
+}
+
+#dubcity {
+  background-image: url("assets/images/dubcity-screenshot.png");
+  background-size: contain;
 }
 
 #guess-that-movie {

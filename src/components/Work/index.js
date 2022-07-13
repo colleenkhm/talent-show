@@ -6,6 +6,12 @@ function Work() {
         <section class="section" id="work">
             <h2>Projects</h2>
         <div class="work-container">
+            <a class="flex-item" id="dubcity" href="https://dub-city-vr-tournaments.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <div>
+                    <h4>DubCity VR Tournaments Event Site</h4>
+                    <p>React/GraphQL</p>
+                </div>
+            </a>
             <a class="flex-item" id="sleepily" href="https://sleepy-cove-47573.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <div>
                     <h4>Sleepily</h4>

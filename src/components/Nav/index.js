@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 
 function Nav(props) {
     const {
@@ -8,7 +9,7 @@ function Nav(props) {
     return (
         <header className="flex-row px-1">
             <h1>
-                <a href="https://colleenkhm.github.io/talent-show/">
+                <a href="/">
                     Colleen Murray
                 </a>
             </h1>
