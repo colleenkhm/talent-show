@@ -1,5 +1,7 @@
 import React from 'react';
-import profilePhoto from '../../assets/images/profile.jpg';
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import profilePhoto from '../assets/images/profile.jpg';
+import Banner from './Banner';
 
 function About() {
     return (

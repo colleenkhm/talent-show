@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../utils/helpers';
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -40,7 +41,7 @@ function Contact() {
 
     return (
         <section id="contact">
-            <h2>Let's connect!</h2>
+            <h2>Questions? Comments? Commissions?</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name</label>
@@ -59,7 +60,7 @@ function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button type="submit" className="submit-button">Submit</button>
             </form>
         </section>
     );

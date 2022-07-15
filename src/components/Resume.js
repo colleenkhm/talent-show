@@ -1,6 +1,7 @@
 import React from 'react';
-import portfolioResume from '../../assets/portfolio-resume.pdf';
-import resumeScreenshot from '../../assets/images/resume-screenshot.png';
+import portfolioResume from '../assets/portfolio-resume.pdf';
+import resumeScreenshot from '../assets/resume-screenshot.png';
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 function Resume() {
     

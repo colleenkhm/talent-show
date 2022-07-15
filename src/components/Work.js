@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 function Work() {
 
@@ -8,7 +9,7 @@ function Work() {
         <div class="work-container">
             <a class="flex-item" id="dubcity" href="https://dub-city-vr-tournaments.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <div>
-                    <h4>DubCity VR Tournaments Event Site</h4>
+                    <h4>DubCity VR Tournaments</h4>
                     <p>React/GraphQL</p>
                 </div>
             </a>
