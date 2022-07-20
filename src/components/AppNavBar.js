@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import About from './About';
 import Work from './Work';
-import Shoutouts from './Shoutouts'
+// import Shoutouts from './Shoutouts'
 import Contact from './Contact';
 import Resume from './Resume';
+import Home from './Home';
 
 function Nav() {
   return (
@@ -25,11 +26,11 @@ function Nav() {
                 Work
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/shoutouts" className="section-link">
                 Shoutouts
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/contact" className="section-link">
                 Contact
@@ -45,6 +46,11 @@ function Nav() {
       </header>
       <Routes>
         <Route 
+        exact path="/"
+        element={<Home/>}
+        >
+        </Route>
+        <Route 
         path="/about"
         element={<About/>}
         >
@@ -54,11 +60,11 @@ function Nav() {
         element={<Work/>}
         >
         </Route>
-        <Route 
+        {/* <Route 
         path="/shoutouts"
         element={<Shoutouts/>}
         >
-        </Route>
+        </Route> */}
         <Route 
         path="/contact"
         element={<Contact/>}
