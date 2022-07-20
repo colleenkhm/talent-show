@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/talent-show/static/css/main.0daa1d36.css",
-    "main.js": "/talent-show/static/js/main.238decad.js",
+    "main.css": "/talent-show/static/css/main.5fa5dc47.css",
+    "main.js": "/talent-show/static/js/main.b6c173a9.js",
     "static/js/787.34317491.chunk.js": "/talent-show/static/js/787.34317491.chunk.js",
-    "static/media/profile.jpg": "/talent-show/static/media/profile.ff418234a57621e2b6de.jpg",
-    "static/media/guessthatmoviescreenshot.png": "/talent-show/static/media/guessthatmoviescreenshot.19177864c665f1b78ab9.png",
-    "static/media/team-profile-screenshot.png": "/talent-show/static/media/team-profile-screenshot.59e25da3f46c3c3120a9.png",
-    "static/media/resume-screenshot.png": "/talent-show/static/media/resume-screenshot.655a30688dd578132711.png",
-    "static/media/biwoc-health-screenshot.png": "/talent-show/static/media/biwoc-health-screenshot.328dfef96f951561a0d1.png",
-    "static/media/schedulerscreenshot.png": "/talent-show/static/media/schedulerscreenshot.f205175aacfa5a97a948.png",
-    "static/media/sleepily-screenshot.png": "/talent-show/static/media/sleepily-screenshot.c3a642678e99bffd62f7.png",
-    "static/media/portfolio-resume.pdf": "/talent-show/static/media/portfolio-resume.a4c40a921348d4425325.pdf",
+    "static/media/profile.jpg": "/talent-show/static/media/profile.70794faea00d88b6a305.jpg",
+    "static/media/guess-that-movie-screenshot.png": "/talent-show/static/media/guess-that-movie-screenshot.0d654849db6ee366347f.png",
+    "static/media/dubcity-screenshot.png": "/talent-show/static/media/dubcity-screenshot.73c411d302a6085b83e4.png",
+    "static/media/resume-screenshot.png": "/talent-show/static/media/resume-screenshot.ccc29b1d855317f8839b.png",
+    "static/media/biwoc-health-screenshot.png": "/talent-show/static/media/biwoc-health-screenshot.e263c7075b338ca6dd7d.png",
+    "static/media/sleepily-screenshot.png": "/talent-show/static/media/sleepily-screenshot.31c34eb3ab3e5f02bfee.png",
+    "static/media/team-profile-screenshot.png": "/talent-show/static/media/team-profile-screenshot.468348e4e9d642d24958.png",
+    "static/media/scheduler-screenshot.png": "/talent-show/static/media/scheduler-screenshot.47bfeaf508fc0d026e89.png",
+    "static/media/portfolio-resume.pdf": "/talent-show/static/media/portfolio-resume.fcef02c9a60458c4f775.pdf",
     "index.html": "/talent-show/index.html",
-    "main.0daa1d36.css.map": "/talent-show/static/css/main.0daa1d36.css.map",
-    "main.238decad.js.map": "/talent-show/static/js/main.238decad.js.map",
+    "main.5fa5dc47.css.map": "/talent-show/static/css/main.5fa5dc47.css.map",
+    "main.b6c173a9.js.map": "/talent-show/static/js/main.b6c173a9.js.map",
     "787.34317491.chunk.js.map": "/talent-show/static/js/787.34317491.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0daa1d36.css",
-    "static/js/main.238decad.js"
+    "static/css/main.5fa5dc47.css",
+    "static/js/main.b6c173a9.js"
   ]
 }
