@@ -26,11 +26,6 @@ function Nav() {
                 Work
               </Link>
             </li>
-            {/* <li>
-              <Link to="/shoutouts" className="section-link">
-                Shoutouts
-              </Link>
-            </li> */}
             <li>
               <Link to="/contact" className="section-link">
                 Contact
@@ -38,7 +33,7 @@ function Nav() {
             </li>
             <li>
               <Link to="/resume" className="section-link">
-                Resume
+                Skills/Resume
               </Link>
             </li>
           </ul>
@@ -60,11 +55,6 @@ function Nav() {
         element={<Work/>}
         >
         </Route>
-        {/* <Route 
-        path="/shoutouts"
-        element={<Shoutouts/>}
-        >
-        </Route> */}
         <Route 
         path="/contact"
         element={<Contact/>}

@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import banner1 from '../assets/images/banner/rainier.JPG';
 import banner2 from '../assets/images/banner/roman-forum.jpg';
