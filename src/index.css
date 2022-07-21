@@ -19,6 +19,11 @@ html,
 body {
   min-height: 100%;
   text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 body {
@@ -76,10 +81,14 @@ header nav ul {
   list-style: none;
 }
 
-li {
+header nav ul li {
   display: inline-flex;
   flex-wrap: wrap;
   padding: 20px 45px 0;
+  list-style: none;
+}
+
+li {
   list-style: none;
 }
 
@@ -92,6 +101,13 @@ h2 {
 
 footer {
   margin: 40px;
+}
+
+footer h4 {
+  color: var(--tertiary);
+  border-radius: 5px;
+  padding: 20px;
+  border-bottom: 5px solid var(--tertiary);
 }
 
 footer ul li {
@@ -126,6 +142,24 @@ i {
 
 .navActive {
   color: rgb(193, 193, 193);
+}
+
+.descriptors {
+  margin: 20px;
+  padding: 10px;
+  /* background-color: white;
+  border-radius: 4px; */
+}
+
+.summary {
+  margin: 20px 150px;
+  padding: 10px;
+}
+
+.carousel img {
+  min-height: 40%;
+  width: auto;
+  max-height: none;
 }
 
 form {
@@ -234,6 +268,31 @@ img {
   color: slategray;
 }
 
+.skills-container{
+  margin: 30px;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  margin: 20px 70px;
+}
+
+.skills h4 {
+  margin-left: 35px;
+  color: var(--tertiary);
+  border-radius: 5px;
+  padding: 10px;
+  border-bottom: 5px solid var(--tertiary);
+}
+
 .resume img {
   width: 100%;
   height: 100%;
@@ -244,7 +303,11 @@ img {
 }
 
 #work {
-  margin-top: 70px;
+  margin: 50px 30px 30px 30px;
+}
+
+#contact {
+  margin: 50px 30px 30px 30px;
 }
 
 #dubcity {
