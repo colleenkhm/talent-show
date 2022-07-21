@@ -64,6 +64,8 @@ function Nav() {
         element={<Resume/>}
         >
         </Route>
+        <Route element={<Home/>}>
+        </Route>
       </Routes>
     </Router>
   );
