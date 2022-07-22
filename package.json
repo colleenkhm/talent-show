@@ -2,7 +2,7 @@
   "name": "talent-show",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://colleenkhm.github.io/talent-show/",
+  "homepage": "https://colleenkhm.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",

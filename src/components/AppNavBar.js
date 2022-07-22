@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Routes, Route, Navigate } from "react-router-dom";
 import About from './About';
 import Work from './Work';
 // import Shoutouts from './Shoutouts'
@@ -41,8 +41,8 @@ function Nav() {
       </header>
       <Routes>
         <Route 
-        exact path="/"
-        element={<Home/>}
+        path=""
+        element={<Navigate to="/home" />}
         >
         </Route>
         <Route 
@@ -64,7 +64,7 @@ function Nav() {
         element={<Resume/>}
         >
         </Route>
-        <Route element={<Home/>}>
+        <Route path="/home" element={<Home/>}>
         </Route>
       </Routes>
     </Router>
