@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd74041c.css",
-    "main.js": "/static/js/main.70622921.js",
-    "static/js/787.34317491.chunk.js": "/static/js/787.34317491.chunk.js",
-    "static/media/temple-of-apollo.JPG": "/static/media/temple-of-apollo.4faab887ed8d40b4a0a0.JPG",
-    "static/media/rainier.JPG": "/static/media/rainier.eed11c6f3c04af91822c.JPG",
-    "static/media/roman-forum.jpg": "/static/media/roman-forum.2a17414681acfebc7efe.jpg",
-    "static/media/eminence-fireline.jpg": "/static/media/eminence-fireline.308211e4b9b4fb4302a0.jpg",
-    "static/media/crater-lake.jpg": "/static/media/crater-lake.feb4a002978f775ac2ac.jpg",
-    "static/media/profile.jpg": "/static/media/profile.70794faea00d88b6a305.jpg",
-    "static/media/guess-that-movie-screenshot.png": "/static/media/guess-that-movie-screenshot.0d654849db6ee366347f.png",
-    "static/media/dubcity-screenshot.png": "/static/media/dubcity-screenshot.b3e2c0445576536000c5.png",
-    "static/media/resume-screenshot.png": "/static/media/resume-screenshot.ccc29b1d855317f8839b.png",
-    "static/media/biwoc-health-screenshot.png": "/static/media/biwoc-health-screenshot.e263c7075b338ca6dd7d.png",
-    "static/media/sleepily-screenshot.png": "/static/media/sleepily-screenshot.31c34eb3ab3e5f02bfee.png",
-    "static/media/team-profile-screenshot.png": "/static/media/team-profile-screenshot.468348e4e9d642d24958.png",
-    "static/media/scheduler-screenshot.png": "/static/media/scheduler-screenshot.47bfeaf508fc0d026e89.png",
-    "static/media/portfolio-resume.pdf": "/static/media/portfolio-resume.fcef02c9a60458c4f775.pdf",
-    "index.html": "/index.html",
-    "main.fd74041c.css.map": "/static/css/main.fd74041c.css.map",
-    "main.70622921.js.map": "/static/js/main.70622921.js.map",
-    "787.34317491.chunk.js.map": "/static/js/787.34317491.chunk.js.map"
+    "main.css": "/talent-show/static/css/main.a1a0a44a.css",
+    "main.js": "/talent-show/static/js/main.45003e02.js",
+    "static/js/787.34317491.chunk.js": "/talent-show/static/js/787.34317491.chunk.js",
+    "static/media/temple-of-apollo.JPG": "/talent-show/static/media/temple-of-apollo.4faab887ed8d40b4a0a0.JPG",
+    "static/media/rainier.JPG": "/talent-show/static/media/rainier.eed11c6f3c04af91822c.JPG",
+    "static/media/roman-forum.jpg": "/talent-show/static/media/roman-forum.2a17414681acfebc7efe.jpg",
+    "static/media/eminence-fireline.jpg": "/talent-show/static/media/eminence-fireline.308211e4b9b4fb4302a0.jpg",
+    "static/media/crater-lake.jpg": "/talent-show/static/media/crater-lake.feb4a002978f775ac2ac.jpg",
+    "static/media/profile.jpg": "/talent-show/static/media/profile.70794faea00d88b6a305.jpg",
+    "static/media/guess-that-movie-screenshot.png": "/talent-show/static/media/guess-that-movie-screenshot.0d654849db6ee366347f.png",
+    "static/media/dubcity-screenshot.png": "/talent-show/static/media/dubcity-screenshot.b3e2c0445576536000c5.png",
+    "static/media/resume-screenshot.png": "/talent-show/static/media/resume-screenshot.ccc29b1d855317f8839b.png",
+    "static/media/biwoc-health-screenshot.png": "/talent-show/static/media/biwoc-health-screenshot.e263c7075b338ca6dd7d.png",
+    "static/media/sleepily-screenshot.png": "/talent-show/static/media/sleepily-screenshot.31c34eb3ab3e5f02bfee.png",
+    "static/media/team-profile-screenshot.png": "/talent-show/static/media/team-profile-screenshot.468348e4e9d642d24958.png",
+    "static/media/scheduler-screenshot.png": "/talent-show/static/media/scheduler-screenshot.47bfeaf508fc0d026e89.png",
+    "static/media/portfolio-resume.pdf": "/talent-show/static/media/portfolio-resume.fcef02c9a60458c4f775.pdf",
+    "index.html": "/talent-show/index.html",
+    "main.a1a0a44a.css.map": "/talent-show/static/css/main.a1a0a44a.css.map",
+    "main.45003e02.js.map": "/talent-show/static/js/main.45003e02.js.map",
+    "787.34317491.chunk.js.map": "/talent-show/static/js/787.34317491.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd74041c.css",
-    "static/js/main.70622921.js"
+    "static/css/main.a1a0a44a.css",
+    "static/js/main.45003e02.js"
   ]
 }
