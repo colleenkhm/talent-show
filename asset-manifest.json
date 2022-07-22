@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/talent-show/static/css/main.a1a0a44a.css",
-    "main.js": "/talent-show/static/js/main.45003e02.js",
+    "main.js": "/talent-show/static/js/main.95abdd80.js",
     "static/js/787.34317491.chunk.js": "/talent-show/static/js/787.34317491.chunk.js",
     "static/media/temple-of-apollo.JPG": "/talent-show/static/media/temple-of-apollo.4faab887ed8d40b4a0a0.JPG",
     "static/media/rainier.JPG": "/talent-show/static/media/rainier.eed11c6f3c04af91822c.JPG",
@@ -19,11 +19,11 @@
     "static/media/portfolio-resume.pdf": "/talent-show/static/media/portfolio-resume.fcef02c9a60458c4f775.pdf",
     "index.html": "/talent-show/index.html",
     "main.a1a0a44a.css.map": "/talent-show/static/css/main.a1a0a44a.css.map",
-    "main.45003e02.js.map": "/talent-show/static/js/main.45003e02.js.map",
+    "main.95abdd80.js.map": "/talent-show/static/js/main.95abdd80.js.map",
     "787.34317491.chunk.js.map": "/talent-show/static/js/787.34317491.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1a0a44a.css",
-    "static/js/main.45003e02.js"
+    "static/js/main.95abdd80.js"
   ]
 }
