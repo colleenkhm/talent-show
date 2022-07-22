@@ -9,7 +9,7 @@ function Home() {
             </div>
             <Banner className="banner"></Banner>
             <div className="summary">
-                <p>Self-motivated developer with a drive to innovate and collaborate. Committed to breaking down communication barriers, increasing information accessibility, and serving communities in need.</p>
+                <p>Self-motivated developer driven to break down communication barriers, improve information accessibility, and inspire creativity.</p>
             </div>
         </div>
     )

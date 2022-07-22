@@ -41,7 +41,7 @@ function Nav() {
       </header>
       <Routes>
         <Route 
-        path=""
+        path="*"
         element={<Navigate to="/home" />}
         >
         </Route>
